@@ -1,1 +1,64 @@
+body {
+    background-color: coral; /*COLOR PAGINA*/
+    font-family: 'Times New Roman', Times, serif; /*FUENTE*/
+}
 
+h1 {
+    text-align: center; /*CENTRAR TEXTO*/
+}
+
+p{
+    color: white;    /*COLOR FUENTE*/
+    font-size: 24 px;  /*TAMAÑO FUENTE*/
+}
+
+div h1 {
+    color: aqua;
+}
+
+/*ID SELECTOR*/
+
+#parrafo-id{
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#info{
+    display: flex; /*ACOMODAR*/
+    padding: 50px 20px; /*EJES 'Y' 'X'*/
+    flex-direction: column;
+}
+
+/*CLASES VARIOS SELECTOR*/
+
+.parrafo{
+    color: blue;
+    font-style: italic;
+}
+
+/*ORDEN LINK - IMAGENES*/
+
+a, img {
+    display: block; /*SEPARAR*/
+}
+
+/*DAR FORMATO LINKS*/
+
+a{
+    margin: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+/* SEUDO SELECTOR HOVER*/
+
+a:hover{
+    color: aqua; /*CAMBIA DE COLOR CON EL CURSOR*/
+}
+
+/* DAR FORMATO IMAGENES*/
+
+img{
+    width: 70%; /*MARGEN*/
+    margin: auto; /*MARGEN PAGINA*/
+}
