@@ -1,0 +1,20 @@
+body{
+    background-color: brown;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    width: 100%;
+    display: flex; /*El módulo Diseño de Caja Flexible (Flexible Box Layout) proporciona una manera más eficiente de diseñar, alinear y distribuir espacio entre los ítems en un contenedor, incluso cuando su tamaño es dinámico*/
+    overflow: auto; /* Podría llegar el momento en donde haya contenido se desborda del viewport sin una manera atractiva de resolverlo.*/
+    overflow-y: scroll;/* Los elementos hijo se desbordarán sobre el eje horizontal con comportamiento de desplazamiento.*/
+    white-space: nowrap;/*Debemos hacerle saber al navegador que no envuelva a los elementos hijos*/
+    max-width: 100%;/*La imagen se va a ampliar o reducir basada en el ancho de su contenedor.*/
+}
+
+/*Media Queries de CSS para Tamaños de Pantalla y Orientaciones Diferentes*/
+@media (min-width: 600px) { /*Definimos reglas específicamente para viewports con un ancho mínimo */
+    body{
+        width: 50%;
+        flex-wrap: nowrap;/*Permite a los elementos hijo acomodarse dentro de nuestro diseño Flexbox*/
+        flex-basis: auto;/* Asegura que los elementos hijo no fluyan y el diseño se mantenga como columnas dentro de una sola fila*/
+    }
+}
