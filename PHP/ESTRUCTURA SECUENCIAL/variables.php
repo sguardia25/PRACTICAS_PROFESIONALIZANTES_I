@@ -23,7 +23,7 @@
     $objeto= (object)["objeto1"=>"rojo", "objeto2"=>"amarillo", "objeto3"=>"azul"];
     echo "Esto es una variable objeto = $objeto->objeto1";
  
-    //VARIABLE VARDUMP
+    //SALIDA VARDUMP
     $numero= 10;
     var_dump($numero);
 ?>

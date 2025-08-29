@@ -17,7 +17,7 @@
         echo "a es menor que b";
     }
 
-    //SUICHES
+    //SWICTH
     $dia = "LUNES";
     switch($dia){
         case 'LUNES':
@@ -33,25 +33,5 @@
         break;
 
         default: echo "SE VIENEN LAS VACAS";
-    }
-
-    //CONDICION WHILE
-    $c = 1;
-    while($c <= 5){
-        echo $c;
-        $c++;
-    }
-
-    //CONDICION DO WHILE
-    $d = 1;
-    do{
-        echo $d;
-        $p++;
-    }
-    while($d <= 5);
-
-    //CONDICION FOR
-    for($i=0; $i<=5;$i++){
-        echo $i;
     }
 ?>
